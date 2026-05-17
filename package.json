@@ -1,7 +1,7 @@
 {
   "name": "coinbase-landing-page",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "https://Dhruvi0211.github.io/React-Coinbase-Landing",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -17,8 +17,13 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   },
   "eslintConfig": {
     "extends": [
