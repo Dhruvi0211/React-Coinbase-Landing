@@ -6,7 +6,9 @@ import about from "../assets/about.png";
 import Button from "./Button";
 export default function AboutUs() {
   return (
-    <Section className="flex a-center gap">
+    <>
+      <div id="learn" />
+      <Section id="about" className="flex a-center gap">
       <div className="content flex column gap">
         <div className="title-container flex column j-center a-center gap-1">
           <div className="subtitle subdue">
@@ -33,7 +35,8 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
-    </Section>
+      </Section>
+    </>
   );
 }
 const Section = styled.section`

@@ -54,7 +54,7 @@ export default function DailyPrices() {
     else return;
   };
   return (
-    <Section className="flex gap-2 column">
+    <Section id="dashboard" className="flex gap-2 column">
       <div className="container">
         <div className="header subdue">
           <span>#</span>

@@ -4,7 +4,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import Button from "./Button";
 export default function Newsletter() {
   return (
-    <Section className="flex j-between a-center gap">
+    <Section id="contact" className="flex j-between a-center gap">
       <div className="title-container flex column gap-1">
         <h2>Newsletter</h2>
         <h3 className="subdue">

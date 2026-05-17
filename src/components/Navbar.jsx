@@ -31,7 +31,7 @@ export default function Navbar() {
           {links.map((link) => {
             return (
               <li key={link}>
-                <a href={link}>{link}</a>
+                <a href={`#${link.toLowerCase()}`}>{link}</a>
               </li>
             );
           })}
